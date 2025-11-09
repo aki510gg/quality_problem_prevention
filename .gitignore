@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
@@ -8,18 +9,33 @@ __pycache__/
 
 # Distribution / packaging
 .Python
+=======
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+>>>>>>> 270022c (initial commit)
 build/
 develop-eggs/
 dist/
 downloads/
 eggs/
 .eggs/
+<<<<<<< HEAD
 lib/
+=======
+>>>>>>> 270022c (initial commit)
 lib64/
 parts/
 sdist/
 var/
 wheels/
+<<<<<<< HEAD
 share/python-wheels/
 *.egg-info/
 .installed.cfg
@@ -74,10 +90,35 @@ docs/_build/
 # PyBuilder
 .pybuilder/
 target/
+=======
+*.egg-info/
+.installed.cfg
+*.egg
+
+# 環境変数
+.env
+
+# 環境変数・設定ファイルをGit追跡から除外
+.zshrc
+bashrc
+config/
+
+# FAISSインデックス（データフォルダのみGit管理推奨）
+faiss_index/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+>>>>>>> 270022c (initial commit)
 
 # Jupyter Notebook
 .ipynb_checkpoints
 
+<<<<<<< HEAD
 # IPython
 profile_default/
 ipython_config.py
@@ -205,3 +246,9 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+=======
+# データファイル（機密情報がある場合）
+# data/*.xlsx
+# data/*.pdf
+# data/*.docx
+>>>>>>> 270022c (initial commit)
